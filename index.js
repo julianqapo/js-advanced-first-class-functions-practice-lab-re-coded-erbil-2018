@@ -16,22 +16,25 @@ function logDriversByHometown(x,y){
 
 
 function driversByRevenue(drivers){
-  drivers.sort(function(a, b){
+  let d = [...drivers]
+  d.sort(function(a, b){
       return a.revenue-b.revenue
   })
-return drivers
+return d
 }
 
 
+
 function driversByName(y){
-y.sort(function(a,b) {
+let yy =[...y]
+yy.sort(function(a,b) {
 if (a.name < b.name)
 return -1;
 if (a.name > b.name)
 return 1;
 return 0;
 })
-return y
+return yy
 }
 
 
