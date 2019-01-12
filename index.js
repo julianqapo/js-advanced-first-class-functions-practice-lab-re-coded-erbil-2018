@@ -37,9 +37,17 @@ return y
 
 
 function totalRevenue(d){
-let total = 0 
+let total = 0
 for (i in d){
 total += d[i].revenue
 }
 return total
+}
+
+function averageRevenue(){
+  let av = 0
+  for (i in d){
+    av += d[i].revenue / d.length
+  }
+  return av
 }
