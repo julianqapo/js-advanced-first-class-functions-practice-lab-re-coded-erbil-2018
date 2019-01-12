@@ -35,3 +35,11 @@ return y
 }
 
 
+
+function totalRevenue(d){
+let total = 0 
+for (i in d){
+total += d[i].revenue
+}
+return total
+}
