@@ -5,7 +5,7 @@ function logDriverNames(x){
   })
 }
 
-/*
+
 function logDriversByHometown(x,y){
   x.filter(function(v){
     if (v.hometown== y){
@@ -14,7 +14,7 @@ function logDriversByHometown(x,y){
   })
 }
 
-/*
+
 function driversByRevenue(drivers){
   drivers.sort(function(a, b){
       return a.revenue-b.revenue
